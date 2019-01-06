@@ -1,0 +1,89 @@
+#camnangtuvan{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	.main{
+		border: 1px solid #b4b4b4;
+		border-top: 4px solid #78c72a;
+		.heading1 {
+			background: #dcdcdc;
+			font-size: 15px;
+			font-weight: bold;
+			color: #251e1c;
+			padding: 10px 15px;
+			margin-bottom: 0;
+			a{
+				color: #251e1c;
+			}
+		}
+		.list_new{
+			padding: 15px;
+			.item{
+				margin-bottom: 15px;
+				.image{
+					border: 2px solid #78c72a;
+					padding: 5px;
+				}
+				.text{
+					.name{
+						font-size: 17px;
+						a{
+							font-size: 17px;
+							color: #78c72a;
+							line-height: 1.2;
+						}
+					}
+					.sapo{
+						font-size: 15px;
+						color: #595858;
+					}
+				}
+			}
+		}
+	}
+	.detail{
+		.name-post{
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #78c72a;
+		}
+		.date{
+			font-size: 13px;
+			color: #878788;
+			text-align: right;
+			padding: 15px;
+		}
+		.content{
+			padding: 15px;
+		}
+	}
+}
+.list-other-news{
+	.title-other-post {
+		font-size: 19px;
+		margin-left: 15px;
+		display: inline-block;
+		border-bottom: 2px solid #717071;
+		padding-bottom: 2px;
+		font-style: italic;
+	}
+	.list{
+		padding-left: 15px;
+		li{
+			list-style: none;
+			a{
+				font-weight: 500;
+				color: #78c72a;
+				font-size: 15px;
+			}
+			span{
+				color: #717071;
+				margin-left: 5px;
+				font-style: italic;
+			}
+		}
+	}
+}
+.share-button{
+	padding: 15px;
+}

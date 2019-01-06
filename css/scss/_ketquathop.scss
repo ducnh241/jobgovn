@@ -1,0 +1,234 @@
+#ketquatonghop {
+	.result {
+		background: url(../images/kqua-bg.png);
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+		position: relative;
+		padding: 50px 0;
+		color: #fff;
+
+		&:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			background: rgba(0, 0, 0, 0.5);
+		}
+
+		.heading {
+			font-size: 25px;
+			font-weight: bold;
+			position: relative;
+			z-index: 99;
+		}
+
+		.wrap {
+			width: 100%;
+			max-width: 800px;
+			margin: auto;
+			border: 1px solid #fff;
+			position: relative;
+			z-index: 99;
+			padding: 20px 0;
+			margin-top: 20px;
+			legend{
+				width: auto;
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+			p{
+				font-size: 16px;
+				margin-bottom: 10px;
+				span{
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	.section1{
+		padding-top: 20px;
+		padding-bottom: 30px;
+		.img{
+
+		}
+		.text{
+			padding-top: 20px;
+			font-size: 16px;
+			color: #403d3c;
+			line-height: 1.9;
+			text-align: justify;
+			font-weight: 500;
+			p{
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.section2{
+		background: #dcdcdc;
+		padding-top: 40px;
+		padding-bottom: 70px;
+		.title{
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+			color: #251e1c;
+		}
+		.item{
+			background: #fff;
+			height: 100%;
+			margin-top: 30px;
+			padding:30px;
+			box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.62);
+			.img{
+				text-align: center;
+				img{
+					width: 120px;
+				}
+			}
+			.text{
+				margin-top: 30px;
+				text-align: center;
+				h4{
+					color: #251e1c;
+					text-transform: uppercase;
+					font-size: 15px;
+					font-weight: bold;
+					margin-bottom: 30px;
+				}
+				p{
+					color: #403d3c;
+					font-size: 15px;
+				}
+			}
+			.detail {
+				position: absolute;
+				left: 0;
+				right: 0;
+				text-align: center;
+				bottom: -5px;
+				a{
+					border: 2px solid #4eb234;
+					display: inline-block;
+					padding: 2px 20px;
+					border-radius: 5px;
+					color: #4eb234;
+					font-weight: bold;
+				}
+			}
+		}
+		.link{
+			text-align: center;
+			margin-top: 70px;
+			position: relative;
+			z-index: 99;
+			.button{
+				@include button_style1;
+			}
+		}
+	}
+	.section3{
+		padding: 30px 0 50px;
+		.title{
+			text-align: center;
+			span{
+				color: #251e1c;
+				border-bottom: 3px solid #4eb234;
+				padding-bottom: 5px;
+				text-transform: uppercase;
+				font-size: 24px;
+				font-weight: bold;
+				margin-bottom: 15px;
+				display: inline-block;
+			}
+		}
+		.content{
+			p{
+				font-size: 20px;
+				color: #3e3a39;
+			}
+		}
+		.wrap-ketqua{
+			position: relative;
+			overflow: hidden;
+			max-width: 800px;
+			margin: auto;
+			margin-bottom: 20px;
+			.corner{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				display: inline-block;
+				border: 2px solid #595858;
+				border-radius: 50%;
+				background: #fff;
+				z-index: 9;
+				&.left-top{
+					left: -20px;
+					top: -20px;
+				}
+				&.right-top{
+					right: -20px;
+					top: -20px;
+				}
+				&.left-bottom{
+					left: -20px;
+					bottom: -20px;
+				}
+				&.right-bottom{
+					right:-20px;
+					bottom: -20px;
+				}
+			}
+			.main{
+				border: 2px solid #595858;
+				padding: 50px;
+				position: relative;
+				background: #f7f8f8;
+				.list{
+					.item{
+						.number{
+							display: inline-block;
+							background: #4eb234;
+							border-radius: 50%;
+							width: 30px;
+							height: 30px;
+							text-align: center;
+							line-height: 30px;
+							font-size: 20px;
+							color: #fff;
+						}
+						p{
+							display: inline-block;
+							color: #3e3a39;
+							font-size: 20px;
+							margin-left: 10px;
+						}
+						.link{
+							float: right;
+							a{
+								display: inline-block;
+								background: #4eb234;
+								text-transform: uppercase;
+								color: #fff;
+								padding: 1px 15px;
+								border-radius: 4px;
+								font-size: 13px;
+								font-weight: 500;
+								margin-left: 15px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.link{
+			text-align: center;
+			.button{
+				@include button_style1;
+			}
+		}
+	}
+}

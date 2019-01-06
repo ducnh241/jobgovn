@@ -1,0 +1,225 @@
+.ketqua-page {
+	background-color: #717071;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	background-image: url(../images/hinhve-color.png);
+	background-size: 1000px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	.heading1{
+		font-size: 22px;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 50px;
+		span{
+			padding: 0 20px;
+		}
+		img{
+			width: 60px;
+		}
+	}
+	.heading2{
+		position: absolute;
+		left: 0;
+		right: 0;
+		text-align: center;
+		top: -22px;
+		z-index: 99;
+		span{
+			display: inline-block;
+			background: #fff;
+			color: #333;
+			font-size: 24px;
+			font-style: italic;
+			font-weight: 500;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+	.wrap-ketqua{
+		position: relative;
+		overflow: hidden;
+		.corner{
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			display: inline-block;
+			border: 2px solid #fff;
+			border-radius: 50%;
+			background: #717071;
+			z-index: 9;
+			&.left-top{
+				left: -20px;
+				top: -20px;
+			}
+			&.right-top{
+				right: -20px;
+				top: -20px;
+			}
+			&.left-bottom{
+				left: -20px;
+				bottom: -20px;
+			}
+			&.right-bottom{
+				right:-20px;
+				bottom: -20px;
+			}
+		}
+		.main{
+			border: 2px solid #fff;
+			padding: 50px;
+			color: #fff;
+			position: relative;
+			legend{
+				width: auto;
+				margin: auto;
+				background: #fff;
+				color: #333;
+				font-size: 24px;
+				font-style: italic;
+				font-weight: 500;
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+			.content{
+				text-align: justify;
+				p{
+					font-size: 16px;
+				}
+			}
+		}
+	}
+	.button-wrap{
+		text-align: center;
+		position: relative;
+		z-index: 99;
+		margin-top: 30px;
+		.link{
+			display: inline-block;
+			margin-left: 100px;
+			margin-right: 100px;
+			.button{
+				@include button_style1;
+			}
+		}
+	}
+}
+
+
+.ketquatest3 {
+	padding-top: 10px;
+	padding-bottom: 40px;
+	.heading1{
+		font-size: 22px;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 50px;
+		background: #727071;
+		padding: 30px 0;
+		span{
+			padding: 0 20px;
+		}
+		img{
+			width: 60px;
+		}
+	}
+	.heading2{
+		position: absolute;
+		left: 0;
+		right: 0;
+		text-align: center;
+		top: -22px;
+		z-index: 99;
+		span{
+			display: inline-block;
+			background: #727071;
+			color: #fff;
+			font-size: 24px;
+			font-style: italic;
+			font-weight: normal;
+			padding: 5px 20px;
+		}
+	}
+	.wrap-ketqua{
+		position: relative;
+		overflow: hidden;
+		.corner{
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			display: inline-block;
+			border: 2px solid #595858;
+			border-radius: 50%;
+			background: #fff;
+			z-index: 9;
+			&.left-top{
+				left: -20px;
+				top: -20px;
+			}
+			&.right-top{
+				right: -20px;
+				top: -20px;
+			}
+			&.left-bottom{
+				left: -20px;
+				bottom: -20px;
+			}
+			&.right-bottom{
+				right:-20px;
+				bottom: -20px;
+			}
+		}
+		.main{
+			border: 2px solid #595858;
+			padding: 50px;
+			position: relative;
+			background: #f7f8f8;
+			legend{
+				width: auto;
+				margin: auto;
+				background: #727071;
+				color: #333;
+				font-size: 24px;
+				font-style: italic;
+				font-weight: 500;
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+			.content{
+				text-align: justify;
+				.title{
+					background: #4eb234;
+					display: inline-block;
+					padding: 5px 20px;
+					font-size: 17px;
+					color: #fff;
+					border-radius: 8px;
+				}
+				p, div{
+					font-size: 16px;
+					color: #231816;
+				}
+				.row{
+					margin-top: -10px;
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+	.button-wrap{
+		text-align: center;
+		position: relative;
+		z-index: 99;
+		margin-top: 20px;
+		.link{
+			display: inline-block;
+			margin-left: 100px;
+			margin-right: 100px;
+			.button{
+				@include button_style1;
+			}
+		}
+	}
+}

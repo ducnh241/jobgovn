@@ -1,0 +1,17 @@
+#homeslider {
+    margin-bottom: 15px;
+}
+.intro-home{
+    text-align: center;
+    .sapo{
+        color: #403d3c;
+        font-size: 16px
+    }
+    .link{
+        margin-top: 15px;
+        margin-bottom: 50px;
+        .button{
+            @include button_style1;
+        }
+    }
+}

@@ -1,0 +1,196 @@
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 1200px) {
+	
+}
+@media (max-width: 1100px) {
+	#header .top .logo{
+		display: none;
+	}
+	#header .top .right {
+		width: 100%;
+	}
+	#main-menu .h-logo {
+		display: block;
+	}
+	#main-menu .h-logo a{
+		font-size: 46px;
+		color: #78c72a;
+	}
+	#header .top .right{
+		display: -ms-flexbox!important;
+		display: flex!important;
+		-ms-flex-pack: justify!important;
+		justify-content: space-between!important;
+		padding-left: 0;
+	}
+	.baitest-page{
+		padding-bottom: 80px;
+	}
+	.baitest-page .wrap-baitest .cautraloi{
+		margin-top: 50px;
+	}
+}
+@media (max-width: 992px) {
+	#header .top .right .contact{
+		margin-right: 0;
+	}
+	#ketquatonghop .section2 .item {
+		height: auto;
+	}
+	.ketqua-page .button-wrap .link {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.ketquatest3 .button-wrap .link {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	#ketquatonghop .section2 .item .detail{
+		bottom: 15px;
+	}
+	#ketquatonghop .section3 .wrap-ketqua .main .list .item .link{
+		float: none;
+		display: block;
+		margin-bottom: 30px;
+	}
+	#ketquatonghop .section3 .wrap-ketqua .main .list .item p{
+		margin-bottom: 10px !important;
+	}
+	#camnangtuvan .main{
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 860px) {
+	#header .top .right {
+		display: block !important;
+	}
+	#header .top .right .contact {
+		width: 50%;
+		float: left;
+	}
+	#header .top .right .contact:nth-of-type(1) .item{
+		float: left;
+	}
+	#header .top .right .user {
+		width: 100%;
+	}
+	.baitest-page .wrap-baitest .baitest01 .list-question .item .choose .custom-radio{
+		width: 49%;
+	}
+	.main-choose-school .box .heading1 img{
+		display: none;
+	}
+	.nhapdiempage .wrap .wrap-ketqua .main .heading1 img{
+		display: none;
+	}
+	.nhapdiempage .wrap .wrap-ketqua .main {
+		padding: 30px 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	#footer .left{
+		margin-bottom: 20px;
+	}
+	#ketquatonghop .section1 .img{
+		text-align: center;
+	}
+	.ketqua-page .wrap-ketqua .main{
+		padding: 15px;
+	}
+	.ketqua-page .wrap-ketqua .main legend{
+		text-align: center;
+	}
+	.ketqua-page .heading1 img{
+		display: none;
+	}
+	.ketqua-page .heading2{
+		position: static;
+	}
+	.ketqua-page .wrap-ketqua .main{
+		padding: 20px 15px;
+	}
+	.chitietchontruong .main .content{
+		padding-left: 15px;
+	}
+	.chitietchontruong .main .heading1{
+		padding-left: 15px;
+	}
+}
+
+@media (max-width: 576px) {
+	#ketquatonghop .section3 .wrap-ketqua .main{
+		padding: 50px 10px;
+	}
+	#ketquatonghop .section3 .wrap-ketqua .main .list .item .number{
+		display: none;
+	}
+	#ketquatonghop .section3 .wrap-ketqua .main .list .item p{
+		display: block;
+		text-align: center;
+	}
+	#camnangtuvan .main .list_new .item .pr-0{
+		padding-right: 15px !important;
+	}
+	#camnangtuvan .main .list_new .item .image{
+		margin-bottom: 15px;
+	}
+	.main-choose-school .box table tr td {
+		padding: 10px;
+	}
+	.main-choose-school .box table tr td.icon{
+		width: 80px;
+	}
+	.nhapdiempage .wrap .wrap-ketqua .main form .from-group.chon-khoi select{
+		width: auto;
+	}
+	.nhapdiempage .wrap .wrap-ketqua .main form .from-group.chon-khoi select {
+		margin: auto;
+		width: 100%;
+	}
+}
+
+@media (max-width: 400px) {
+	#header .top .right .contact {
+		display: none;
+	}
+	.baitest-page .wrap-baitest .baitest01 .list-question .item .choose .custom-radio{
+		width: 100%;
+	}
+	.baitest-page .heading1 img{
+		display: none;
+	}
+	.baitest-page .wrap-baitest .cautraloi .main .list-exam .item .test1 span{
+		margin-right: 15px;
+	}
+	.ketqua-page .button-wrap .link {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.ketquatest3 .heading1 img{
+		display: none;
+	}
+	.ketquatest3 .heading1 span{
+		padding: 0;
+	}
+	.ketquatest3 .button-wrap .link {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.ketquatest3 .wrap-ketqua .main{
+		padding: 50px 10px;
+	}
+}

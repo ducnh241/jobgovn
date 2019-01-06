@@ -1,0 +1,204 @@
+.main-choose-school{
+	.breadcrumb{
+		margin-top: 15px;
+	}
+	.box{
+		max-width: 900px;
+		margin: 50px auto;
+		.heading1 {
+			font-size: 22px;
+			color: #fff;
+			text-transform: uppercase;
+			text-align: center;
+			margin-bottom: 0;
+			background: #a3a3a4;
+			padding: 10px 0;
+			img{
+				width: 60px;
+			}
+			span{
+				padding: 0 20px;
+			}
+		}
+		table{
+			tr{
+				td{
+					padding:15px 30px;
+					border-top: 1px solid #a3a3a4;
+					border-left: 1px solid #a3a3a4;
+					border-right: 1px solid #a3a3a4;
+					&.icon{
+						width: 125px;
+						vertical-align: middle;
+					}
+					&.text{
+						.name{
+							color: #595858;
+							font-size: 20px;
+						}
+						.nganhhoc {
+							font-size: 16px;
+							color: #585858;
+							margin-bottom: 5px;
+						}
+						.link-detail{
+							color: #78c72a;
+							display: inline-block;
+							border: 1px solid #78c72a;
+							padding: 3px 25px;
+							border-radius: 10px;
+							font-size: 16px;
+						}
+					}
+				}
+				&:last-child{
+					border-bottom: 1px solid #a3a3a4;
+				}
+			}
+		}
+	}
+}
+.chitietchontruong{
+	.breadcrumb{
+		margin-top: 15px;
+	}
+	.main{
+		border: 1px solid #dcdcdc;
+		margin-top: 30px;
+		margin-bottom: 50px;
+		.heading1{
+			background: #dcdcdc;
+			color: #403d3c;
+			font-size: 18px;
+			padding: 15px;
+			padding-left: 30px;
+		}
+		.content{
+			padding: 15px;
+			padding-left: 30px;
+			font-size: 16px;
+			.title{
+				color: #78c72a;
+				display: inline-block;
+				border-bottom: 1px solid #78c72a;
+				font-size: 18px;
+			}
+			ul{
+				padding-left: 0;
+				li{
+					list-style: none;
+				}
+			}
+		}
+	}
+}
+.nhapdiempage{
+	.breadcrumb{
+		margin-top: 15px;
+	}
+	.wrap{
+		max-width: 800px;
+		margin: 50px auto;
+		.wrap-ketqua{
+			position: relative;
+			overflow: hidden;
+			.corner{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				display: inline-block;
+				border: 2px solid #78c72a;
+				border-radius: 50%;
+				background: #ffffff;
+				z-index: 9;
+				&.left-top{
+					left: -20px;
+					top: -20px;
+				}
+				&.right-top{
+					right: -20px;
+					top: -20px;
+				}
+				&.left-bottom{
+					left: -20px;
+					bottom: -20px;
+				}
+				&.right-bottom{
+					right:-20px;
+					bottom: -20px;
+				}
+			}
+			.main{
+				border: 2px solid #78c72a;
+				padding: 30px 50px;
+				color: #595858;
+				position: relative;
+				.heading1{
+					font-size: 22px;
+					color: #595858;
+					text-transform: uppercase;
+					text-align: center;
+					margin-bottom: 0;
+					padding: 10px 0;
+					img{
+						width: 60px;
+					}
+					span{
+						padding: 0 20px;
+					}
+				}
+				.sapo{
+					margin-top: 10px;
+					p{
+						font-size: 16px;
+						color: #595858;
+						text-align: center;
+						margin-bottom: 0;
+					}
+				}
+				form{
+					max-width: 400px;
+					margin: auto;
+					margin-top: 30px;
+					.from-group{
+						margin-top: 10px;
+						label{
+							font-size: 16px;
+						}
+						select{
+							border: 1px solid #585858;
+							height: 30px;
+							border-radius: 5px;
+							padding-left: 15px;
+							padding-right: 15px;
+							margin-left: 20px;
+						}
+						input{
+							border: 1px solid #585858;
+							height: 30px;
+							border-radius: 5px;
+							padding-left: 15px;
+							padding-right: 15px;
+							margin-left: 20px;
+							width: 100px;
+							text-align: center;
+							color: #585858;
+						}
+						&.chon-khoi{
+							select{
+								width: 160px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.link{
+			text-align: center;
+			margin-top: 20px;
+			.button{
+				@include button_style1;
+			}
+		}
+	}
+}

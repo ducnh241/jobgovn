@@ -1,0 +1,34 @@
+#footer{
+	background: #251e1c;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	color: #fff;
+	.left{
+		.logo{
+			a{
+                img{
+                	width: 180px;
+                }
+            }
+		}
+	}
+	.right{
+		.item{
+			display: -ms-flexbox!important;
+			display: flex!important;
+			-ms-flex-align: end!important;
+			align-items: flex-end!important;
+			width: 40%;
+			float: left;
+			margin-bottom: 10px;
+			img{
+				width: 30px;
+				height: 30px;
+				margin-right: 15px;
+			}
+			span{
+				font-size: 13px;
+			}
+		}
+	}
+}
