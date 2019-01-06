@@ -161,6 +161,13 @@
 		margin: auto;
 		width: 100%;
 	}
+	.baitest-page .wrap-baitest .cauhoi .btn-prev{
+		left: -14px;
+	}
+
+	.baitest-page .wrap-baitest .cauhoi .btn-next{
+		right: -14px;
+	}
 }
 
 @media (max-width: 400px) {
@@ -192,5 +199,15 @@
 	}
 	.ketquatest3 .wrap-ketqua .main{
 		padding: 50px 10px;
+	}
+	.baitest-page .wrap-baitest .cauhoi{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.baitest-page .wrap-baitest .cautraloi{
+		padding: 40px 7px;
+	}
+	.baitest-page .wrap-baitest .cautraloi .main .note .item span{
+		font-size: 11px;
 	}
 }
