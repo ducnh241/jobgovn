@@ -1461,13 +1461,13 @@ a {
         padding: 10px 30px;
         display: inline-block; }
 
-.dangky-dangnhap .wrap {
+.dangky-page .wrap {
   margin-top: 40px;
   margin-bottom: 40px; }
-  .dangky-dangnhap .wrap .wrap-dangky {
+  .dangky-page .wrap .wrap-dangky {
     position: relative;
     overflow: hidden; }
-    .dangky-dangnhap .wrap .wrap-dangky .corner {
+    .dangky-page .wrap .wrap-dangky .corner {
       position: absolute;
       width: 50px;
       height: 50px;
@@ -1476,42 +1476,42 @@ a {
       border-radius: 50%;
       background: #ffffff;
       z-index: 9; }
-      .dangky-dangnhap .wrap .wrap-dangky .corner.left-top {
+      .dangky-page .wrap .wrap-dangky .corner.left-top {
         left: -20px;
         top: -20px; }
-      .dangky-dangnhap .wrap .wrap-dangky .corner.right-top {
+      .dangky-page .wrap .wrap-dangky .corner.right-top {
         right: -20px;
         top: -20px; }
-      .dangky-dangnhap .wrap .wrap-dangky .corner.left-bottom {
+      .dangky-page .wrap .wrap-dangky .corner.left-bottom {
         left: -20px;
         bottom: -20px; }
-      .dangky-dangnhap .wrap .wrap-dangky .corner.right-bottom {
+      .dangky-page .wrap .wrap-dangky .corner.right-bottom {
         right: -20px;
         bottom: -20px; }
-    .dangky-dangnhap .wrap .wrap-dangky .main {
+    .dangky-page .wrap .wrap-dangky .main {
       border: 2px solid #78c72a;
       padding: 30px 50px;
       color: #595858;
       position: relative; }
-    .dangky-dangnhap .wrap .wrap-dangky .main {
+    .dangky-page .wrap .wrap-dangky .main {
       padding: 30px 100px; }
-      .dangky-dangnhap .wrap .wrap-dangky .main .heading1 {
+      .dangky-page .wrap .wrap-dangky .main .heading1 {
         font-size: 25px;
         font-weight: bold; }
-      .dangky-dangnhap .wrap .wrap-dangky .main .sapo {
+      .dangky-page .wrap .wrap-dangky .main .sapo {
         font-style: italic; }
-      .dangky-dangnhap .wrap .wrap-dangky .main .heading2 {
+      .dangky-page .wrap .wrap-dangky .main .heading2 {
         font-size: 18px;
         font-weight: normal; }
-      .dangky-dangnhap .wrap .wrap-dangky .main .wrap-form {
+      .dangky-page .wrap .wrap-dangky .main .wrap-form {
         padding-left: 50px;
         padding-right: 50px; }
-        .dangky-dangnhap .wrap .wrap-dangky .main .wrap-form label {
+        .dangky-page .wrap .wrap-dangky .main .wrap-form label {
           font-size: 15px; }
-        .dangky-dangnhap .wrap .wrap-dangky .main .wrap-form input {
+        .dangky-page .wrap .wrap-dangky .main .wrap-form input {
           background: #f2f2f2;
           color: #595858; }
-        .dangky-dangnhap .wrap .wrap-dangky .main .wrap-form button {
+        .dangky-page .wrap .wrap-dangky .main .wrap-form button {
           color: #78c72a;
           border: 2px solid #78c72a;
           border-radius: 5px;
@@ -1522,6 +1522,90 @@ a {
           cursor: pointer;
           margin-top: 10px;
           font-weight: bold; }
+
+.dangnhap-page .wrap {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .dangnhap-page .wrap .wrap-dangky {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto; }
+    .dangnhap-page .wrap .wrap-dangky .corner {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      border: 2px solid #78c72a;
+      border-radius: 50%;
+      background: #ffffff;
+      z-index: 9; }
+      .dangnhap-page .wrap .wrap-dangky .corner.left-top {
+        left: -20px;
+        top: -20px; }
+      .dangnhap-page .wrap .wrap-dangky .corner.right-top {
+        right: -20px;
+        top: -20px; }
+      .dangnhap-page .wrap .wrap-dangky .corner.left-bottom {
+        left: -20px;
+        bottom: -20px; }
+      .dangnhap-page .wrap .wrap-dangky .corner.right-bottom {
+        right: -20px;
+        bottom: -20px; }
+    .dangnhap-page .wrap .wrap-dangky .main {
+      border: 2px solid #78c72a;
+      padding: 30px 50px;
+      color: #595858;
+      position: relative; }
+    .dangnhap-page .wrap .wrap-dangky .main {
+      padding: 30px 100px; }
+      .dangnhap-page .wrap .wrap-dangky .main .heading1 {
+        font-size: 25px;
+        font-weight: bold; }
+      .dangnhap-page .wrap .wrap-dangky .main .sapo {
+        font-style: italic; }
+      .dangnhap-page .wrap .wrap-dangky .main .wrap-form {
+        padding-left: 100px;
+        padding-right: 100px; }
+        .dangnhap-page .wrap .wrap-dangky .main .wrap-form label {
+          font-size: 15px; }
+          .dangnhap-page .wrap .wrap-dangky .main .wrap-form label i {
+            margin-right: 5px; }
+        .dangnhap-page .wrap .wrap-dangky .main .wrap-form input {
+          background: #f2f2f2;
+          color: #595858; }
+        .dangnhap-page .wrap .wrap-dangky .main .wrap-form button {
+          color: #78c72a;
+          border: 2px solid #78c72a;
+          border-radius: 5px;
+          padding: 5px 25px;
+          background: #fff;
+          font-size: 17px;
+          font-style: italic;
+          cursor: pointer;
+          margin-top: 10px;
+          font-weight: bold; }
+        .dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .left {
+          text-align: right; }
+          .dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .left h3 {
+            font-size: 17px;
+            font-weight: bold; }
+          .dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .left p {
+            font-size: 12px;
+            margin-bottom: 0; }
+            .dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .left p a {
+              color: #cc5520; }
+        .dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .right {
+          border-left: 2px solid #717071; }
+          .dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .right h3 {
+            font-size: 17px;
+            font-weight: bold; }
+          .dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .right p {
+            font-size: 12px;
+            margin-bottom: 0; }
+            .dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .right p a {
+              color: #cc5520; }
 
 #footer {
   background: #251e1c;

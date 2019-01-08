@@ -1,4 +1,4 @@
-.dangky-dangnhap{
+.dangky-page{
 	.wrap{
 		margin-top: 40px;
 		margin-bottom: 40px;
@@ -38,6 +38,84 @@
 						cursor: pointer;
 						margin-top: 10px;
 						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}
+.dangnhap-page{
+	.wrap{
+		margin-top: 40px;
+		margin-bottom: 40px;
+		.wrap-dangky{
+			@include style_box1;
+			width: 100%;
+			max-width: 1000px;
+			margin: auto;
+			.main{
+				padding: 30px 100px;
+				.heading1{
+					font-size: 25px;
+					font-weight: bold;
+				}
+				.sapo{
+					font-style: italic;
+				}
+				.wrap-form{
+					padding-left: 100px;
+					padding-right: 100px;
+					label{
+						font-size: 15px;
+						i{
+							margin-right: 5px;
+						}
+					}
+					input{
+						background: #f2f2f2;
+						color: #595858;
+					}
+					button{
+						color: #78c72a;
+						border: 2px solid #78c72a;
+						border-radius: 5px;
+						padding: 5px 25px;
+						background: #fff;
+						font-size: 17px;
+						font-style: italic;
+						cursor: pointer;
+						margin-top: 10px;
+						font-weight: bold;
+					}
+					.reset-pass{
+						.left{
+							text-align: right;
+							h3{
+								font-size: 17px;
+								font-weight: bold;
+							}
+							p{
+								font-size: 12px;
+								margin-bottom: 0;
+								a{
+									color: #cc5520;
+								}
+							}
+						}
+						.right{
+							border-left: 2px solid #717071;
+							h3{
+								font-size: 17px;
+								font-weight: bold;
+							}
+							p{
+								font-size: 12px;
+								margin-bottom: 0;
+								a{
+									color: #cc5520;
+								}
+							}
+						}
 					}
 				}
 			}
