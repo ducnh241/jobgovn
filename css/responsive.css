@@ -13,7 +13,10 @@
 }
 
 @media (max-width: 1200px) {
-	
+	.dangnhap-page .wrap .wrap-dangky .main .wrap-form{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 }
 @media (max-width: 1100px) {
 	#header .top .logo{
@@ -42,11 +45,15 @@
 	.baitest-page .wrap-baitest .cautraloi{
 		margin-top: 50px;
 	}
-	.dangky-dangnhap .wrap .wrap-dangky .main .wrap-form{
+	.dangky-page .wrap .wrap-dangky .main .wrap-form{
 		padding: 0;
 	}
-	.dangky-dangnhap .wrap .wrap-dangky .main {
+	.dangky-page .wrap .wrap-dangky .main {
 		padding: 30px 50px;
+	}
+	.dangnhap-page .wrap .wrap-dangky .main .wrap-form{
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 @media (max-width: 992px) {
@@ -78,6 +85,9 @@
 	#camnangtuvan .main{
 		margin-bottom: 30px;
 	}
+	.dangnhap-page .wrap .wrap-dangky .main{
+		padding: 30px 50px;
+	}
 }
 @media (max-width: 860px) {
 	#header .top .right {
@@ -104,6 +114,20 @@
 	}
 	.nhapdiempage .wrap .wrap-ketqua .main {
 		padding: 30px 15px;
+	}
+	.dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .left{
+		text-align: center;
+	}
+	.dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .right{
+		text-align: center;
+		border-left: none;
+		margin-top: 10px;
+	}
+	.dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .left h3{
+		margin-bottom: 0;
+	}
+	.dangnhap-page .wrap .wrap-dangky .main .wrap-form .reset-pass .right h3{
+		margin-bottom: 0;
 	}
 }
 
