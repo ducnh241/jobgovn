@@ -42,6 +42,12 @@
 	.baitest-page .wrap-baitest .cautraloi{
 		margin-top: 50px;
 	}
+	.dangky-dangnhap .wrap .wrap-dangky .main .wrap-form{
+		padding: 0;
+	}
+	.dangky-dangnhap .wrap .wrap-dangky .main {
+		padding: 30px 50px;
+	}
 }
 @media (max-width: 992px) {
 	#header .top .right .contact{

@@ -1461,6 +1461,68 @@ a {
         padding: 10px 30px;
         display: inline-block; }
 
+.dangky-dangnhap .wrap {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .dangky-dangnhap .wrap .wrap-dangky {
+    position: relative;
+    overflow: hidden; }
+    .dangky-dangnhap .wrap .wrap-dangky .corner {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      border: 2px solid #78c72a;
+      border-radius: 50%;
+      background: #ffffff;
+      z-index: 9; }
+      .dangky-dangnhap .wrap .wrap-dangky .corner.left-top {
+        left: -20px;
+        top: -20px; }
+      .dangky-dangnhap .wrap .wrap-dangky .corner.right-top {
+        right: -20px;
+        top: -20px; }
+      .dangky-dangnhap .wrap .wrap-dangky .corner.left-bottom {
+        left: -20px;
+        bottom: -20px; }
+      .dangky-dangnhap .wrap .wrap-dangky .corner.right-bottom {
+        right: -20px;
+        bottom: -20px; }
+    .dangky-dangnhap .wrap .wrap-dangky .main {
+      border: 2px solid #78c72a;
+      padding: 30px 50px;
+      color: #595858;
+      position: relative; }
+    .dangky-dangnhap .wrap .wrap-dangky .main {
+      padding: 30px 100px; }
+      .dangky-dangnhap .wrap .wrap-dangky .main .heading1 {
+        font-size: 25px;
+        font-weight: bold; }
+      .dangky-dangnhap .wrap .wrap-dangky .main .sapo {
+        font-style: italic; }
+      .dangky-dangnhap .wrap .wrap-dangky .main .heading2 {
+        font-size: 18px;
+        font-weight: normal; }
+      .dangky-dangnhap .wrap .wrap-dangky .main .wrap-form {
+        padding-left: 50px;
+        padding-right: 50px; }
+        .dangky-dangnhap .wrap .wrap-dangky .main .wrap-form label {
+          font-size: 15px; }
+        .dangky-dangnhap .wrap .wrap-dangky .main .wrap-form input {
+          background: #f2f2f2;
+          color: #595858; }
+        .dangky-dangnhap .wrap .wrap-dangky .main .wrap-form button {
+          color: #78c72a;
+          border: 2px solid #78c72a;
+          border-radius: 5px;
+          padding: 5px 25px;
+          background: #fff;
+          font-size: 17px;
+          font-style: italic;
+          cursor: pointer;
+          margin-top: 10px;
+          font-weight: bold; }
+
 #footer {
   background: #251e1c;
   padding-top: 30px;
